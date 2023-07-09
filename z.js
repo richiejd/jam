@@ -2,9 +2,32 @@ const fs = require("fs");
 const path = require("path");
 
 const templatePackageJson = {
-  name: "REPLACEME",
-  version: "1.0.0",
-  // make this have a lot of stuff
+    "name": "templatejsons",
+    "version": "1.0.0",
+    "description": "A lot of stuff",
+    "main": "index.js",
+    "scripts": {
+        "format": "prettier --write ."
+    },
+    "author": "jacobchenry",
+    "dependencies": {
+        "async": "^3.2.4",
+        "axios": "^1.4.0",
+        "express": "^4.18.2",
+        "he": "^1.2.0",
+        "helmet": "^7.0.0",
+        "mongoose": "^7.3.1",
+        "react": "18.0.0",
+        "react-native": "0.69.6",
+        "react-native-dropdown-picker": "^5.4.6",
+        "react-native-safe-area-context": "4.3.1",
+        "react-native-screens": "~3.15.0"
+    },
+    "keywords": [
+        "node.js",
+        "javascript",
+        "code",
+    ]
 }
 
 for (let i = 0; i < 1000; i++) {
